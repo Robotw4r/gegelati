@@ -604,3 +604,7 @@ void Learn::LearningAgent::forgetPreviousResults()
     bestRoot.first = nullptr;
     bestRoot.second = nullptr;
 }
+
+void Learn::LearningAgent::setParam(LearningParameters &n_params) {
+    (*this).params = n_params;
+}

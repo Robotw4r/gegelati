@@ -452,6 +452,13 @@ namespace Learn {
          * \param[in] seed the seed given to the TPGMutator.
          */
         virtual void init(uint64_t seed = 0);
+
+        /**
+         * \brief Sets the parameters of a Learning Agent to those of a LearningParameters instance
+         *
+         * \param[in] n_params the parameters to set
+         */
+        void setParam(LearningParameters &n_params);
     };
 }; // namespace Learn
 
