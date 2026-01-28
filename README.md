@@ -1,3 +1,9 @@
+This is a modified version of the gegelati library. The original version is [here](https://github.com/gegelati/gegelati).
+This version aims to implement TPG's hyperparameters optimization at runtime.
+
+Default README
+--------------
+
 # <img src="./doc/img/logo-full.svg" alt="GEGELATI" width="350"/>
 _Generic Evolvable Graphs for Efficient Learning of Artificial Tangled Intelligence_
 
