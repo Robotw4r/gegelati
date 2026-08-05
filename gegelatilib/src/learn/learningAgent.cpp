@@ -470,3 +470,7 @@ std::vector<std::shared_ptr<Algorithm::Job>> Learn::LearningAgent::makeJobs(
 bool Learn::LearningAgent::containsAlgorithm(Algorithm::Algorithm& algorithm){
     return this->algorithms.find(algorithm.getAlgorithmID()) != this->algorithms.end();
 }
+
+void Learn::LearningAgent::setParam(LearningParameters &n_params) {
+   *((*this).params) = n_params;
+}
